@@ -334,6 +334,14 @@ main .restaurant {
 main .restaurant .container {
   gap: 20px;
 }
+@media screen and (min-width: 768px) {
+  main .restaurant .container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+  }
+}
 main .restaurant .container .card {
   position: relative;
   width: 340px;
@@ -391,19 +399,6 @@ main .restaurant .container .card a .card-content .card-text p {
   font-weight: 400;
 }
 
-@media screen and (min-width: 768px) {
-  main .restaurant .container {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    align-items: center;
-  }
-}
-@media screen and (min-width: 1025px) {
-  .restaurant {
-    flex-flow: row wrap;
-  }
-}
 .image-restaurant {
   position: relative;
   width: 100%;
@@ -440,6 +435,11 @@ main .content .title {
   flex-direction: row;
   justify-content: space-between;
 }
+@media screen and (min-width: 768px) {
+  main .content .title {
+    width: 50%;
+  }
+}
 main .content .title h2 {
   font-family: "Shrikhand", sans-serif;
   font-size: 25px;
@@ -449,6 +449,14 @@ main .content .title .like {
 }
 main .content .menu {
   gap: 30px;
+}
+@media screen and (min-width: 768px) {
+  main .content .menu {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+  }
 }
 main .content .menu .container {
   display: flex;
