@@ -129,7 +129,7 @@ button:hover {
 }
 .like .fa-solid {
   position: absolute;
-  top: 2px;
+  top: 3px;
   left: 0;
   color: transparent;
 }
@@ -219,7 +219,7 @@ footer .foot-text a h3 {
 
 .animIndex {
   overflow: hidden;
-  animation: defilement 14s linear forwards;
+  animation: defilement 5s linear forwards;
 }
 
 .loader {
@@ -229,13 +229,13 @@ footer .foot-text a h3 {
   display: flex;
   justify-content: center;
   align-items: center;
-  animation: loader 8s linear forwards;
+  animation: loader 3s linear forwards;
 }
 .loader .lds-dual-ring {
   display: inline-block;
   width: 100px;
   height: 100px;
-  animation: opacite 8s linear forwards;
+  animation: opacite 3s linear forwards;
 }
 .loader .lds-dual-ring:after {
   content: " ";
@@ -301,7 +301,7 @@ main .fonctionnement .card {
   box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
 }
 main .fonctionnement .card:hover {
-  background: #eaeaea;
+  background: #F5EDFF;
 }
 main .fonctionnement .card .number {
   position: absolute;
@@ -311,6 +311,7 @@ main .fonctionnement .card .number {
   height: 25px;
   background: #9356DC;
   border-radius: 50%;
+  color: #fff;
 }
 main .fonctionnement .card .i {
   position: absolute;
