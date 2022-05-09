@@ -264,7 +264,6 @@ main .search input {
 }
 main .search input::placeholder {
   color: #353535;
-  font-family: "Font Awesome 5 Free";
   font-size: 16px;
   font-weight: 500;
 }
