@@ -440,7 +440,7 @@ main .content .title {
     width: 50%;
   }
 }
-main .content .title h2 {
+main .content .title h1 {
   font-family: "Shrikhand", sans-serif;
   font-size: 25px;
 }
@@ -464,9 +464,6 @@ main .content .menu .container {
   gap: 15px;
   background: #F6F6F6;
 }
-main .content .menu .container h3 {
-  text-transform: uppercase;
-}
 main .content .menu .container .box1, main .content .menu .container .box2, main .content .menu .container .box3 {
   display: flex;
   flex-flow: column wrap;
@@ -477,10 +474,10 @@ main .content .menu .container .box1 .title, main .content .menu .container .box
   display: flex;
   flex-direction: column;
 }
-main .content .menu .container .box1 .title h3, main .content .menu .container .box2 .title h3, main .content .menu .container .box3 .title h3 {
+main .content .menu .container .box1 .title h2, main .content .menu .container .box2 .title h2, main .content .menu .container .box3 .title h2 {
   text-transform: uppercase;
-  font-size: 14px;
-  font-weight: 400;
+  font-size: 20px;
+  font-weight: 300;
 }
 main .content .menu .container .box1 .title .line, main .content .menu .container .box2 .title .line, main .content .menu .container .box3 .title .line {
   width: 40px;
