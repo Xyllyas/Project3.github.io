@@ -556,6 +556,9 @@ main .content .menu .container .box1 .card:hover .check, main .content .menu .co
 main .content .menu .container .box1 .card:hover i, main .content .menu .container .box2 .card:hover i, main .content .menu .container .box3 .card:hover i {
   animation: spin 1s ease;
 }
+main .content .menu .container .box1 .vide, main .content .menu .container .box2 .vide, main .content .menu .container .box3 .vide {
+  background: #F6F6F6 !important;
+}
 main .content .menu .container .box1 {
   animation: anim 0.8s linear forwards 1s;
 }
