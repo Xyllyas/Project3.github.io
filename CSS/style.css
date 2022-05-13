@@ -48,12 +48,12 @@
   0% {
     background: black;
     z-index: 1111;
-    opacity: 0.5;
+    opacity: 0.7;
   }
   80% {
     background: black;
     z-index: 1111;
-    opacity: 0.5;
+    opacity: 0.7;
   }
   100% {
     opacity: 0;
@@ -232,7 +232,6 @@ footer .foot-text a h3 {
   animation: loader 3s linear forwards;
 }
 .loader .lds-dual-ring {
-  display: inline-block;
   width: 100px;
   height: 100px;
   animation: opacite 3s linear forwards;
@@ -245,7 +244,7 @@ footer .foot-text a h3 {
   margin: 8px;
   border-radius: 50%;
   border: 6px solid #fff;
-  border-color: #fff transparent #fff transparent;
+  border-color: #9356DC transparent #FF79DA transparent;
   animation: lds-dual-ring 1.2s linear infinite;
 }
 
