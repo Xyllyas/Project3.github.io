@@ -1,0 +1,79 @@
+///animation like
+@keyframes fondu {
+    from{
+      opacity: 0;
+    }
+    to{
+      opacity: 1;
+      
+    }
+  }
+  @keyframes transparent{
+    from{
+      color: #000;
+      opacity: 1;
+    }
+    to{
+      color: transparent;
+      opacity: 0;
+    }
+  }
+/// animation menu
+@keyframes spin {
+  from {transform:rotate(0deg);}
+  to {transform:rotate(360deg);}
+}
+@keyframes anim{
+  from{
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  to{
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+/// animation loader
+@keyframes lds-dual-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes loader{
+  0%{
+    background: black;
+    z-index: 1111;
+    opacity: 0.7;
+  }
+  80%{
+    background: black;
+    z-index: 1111;
+    opacity: 0.7;
+  }
+  100%{
+    opacity: 0;
+    z-index: -1;
+  }
+}
+@keyframes opacite{
+  0%{
+    opacity: 1;
+  }
+  90%{
+    opacity: 0;
+  }
+  100%{
+    overflow: hidden;
+  }
+}
+@keyframes defilement{
+  from{
+    overflow: hidden;
+  }
+  to{
+    overflow: scroll;
+  }
+}

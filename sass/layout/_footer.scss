@@ -1,0 +1,41 @@
+footer{
+    width: 100%;
+    padding: 25px 0 40px 20px;
+    display: flex;
+    flex-flow: column wrap;
+    gap: 20px;
+    background: $colour-text;
+        h2{
+        color: $colour-white;
+        font-family: "Shrikhand";
+        font-size: 20px;
+        letter-spacing: 1px;
+        }
+        .foot-text{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            font-size: 16px;
+            font-weight: 300;
+                a{
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    gap: 10px;
+                    text-decoration: none;
+                    color: $colour-white;
+                        i{
+                            @extend %flex-center-center;
+                            width: 20px;
+                            height: 20px;
+                        }
+                        h3{
+                            font-size: 16px;
+                            font-weight: 400;
+                        }
+                }
+        }
+        @media screen and (min-width: 768px){
+            @include flex-column-center
+        }
+}
